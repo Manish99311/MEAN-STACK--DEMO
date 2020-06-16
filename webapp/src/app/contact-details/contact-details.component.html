@@ -1,0 +1,21 @@
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <!-- <th scope="col">id</th> -->
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let contact of contacts">
+      <!-- <th scope="row">contact._id</th> -->
+      <td>{{contact.first_name}}</td>
+      <td>{{contact.last_name}}</td>
+      <td>{{contact.phone}}</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
