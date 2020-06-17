@@ -8,11 +8,13 @@ import { ContactDetailsComponent } from './contact-details/contact-details.compo
 // import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 import { AddDetailsComponent } from './add-details/add-details.component';
+import { HeaderComponent } from './header/header.component';
 @NgModule({
   declarations: [
     AppComponent,
     ContactDetailsComponent,
-    AddDetailsComponent
+    AddDetailsComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,10 @@
+<div class="container">
+
 <form (submit)="addContacts()">
+  <h3>ENTER YOUR CONTACT DETAILS</h3>
   <div class="form-group">
     <label for="exampleInputEmail1">First Name</label>
-    <input type="text" class="form-control" [(ngModel)]="first_name" name="first_name" placeholder="Enter first nameS">
+    <input type="text" class="form-control" [(ngModel)]="first_name" name="first_name" placeholder="Enter first name">
 
   </div>
   <div class="form-group">
@@ -18,3 +21,4 @@
 
   <button type="submit"  class="btn btn-primary">Submit</button>
 </form>
+</div>
